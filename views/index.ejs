@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>SSH GUI</h1>
+    
+    <form action="/ssh" method="get">
+      <div class="form_row">
+        <p>Hostname or IP Address</p>
+        <input type="text" name="host" id="">
+      </div>
+
+      <div class="form_row">
+        <p>Port</p>
+        <input type="text" name="port" id="">
+      </div>
+
+      <div class="form_row">
+        <p>Username</p>
+        <input type="text" name="username" id="">
+      </div>
+
+      <div class="form_row">
+        <p>Password</p>
+        <input type="password" name="pw" id="">
+      </div>
+
+      <input type="submit" value="connect">
+
+    </form>
+  </body>
+</html>
